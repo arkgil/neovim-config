@@ -38,3 +38,5 @@ set colorcolumn=80
 " show line and column numbers
 set ruler
 
+" set color scheme
+colorscheme nord
