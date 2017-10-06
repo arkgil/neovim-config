@@ -21,6 +21,8 @@ call dein#add('Raimondi/delimitMate')
 
 call dein#add('arcticicestudio/nord-vim')
 
+call dein#add('ctrlpvim/ctrlp.vim')
+
 call dein#end()
 
 source ~/.config/nvim/plugins/nerdtree.vim
