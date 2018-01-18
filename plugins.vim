@@ -20,10 +20,32 @@ call dein#add('qpkorr/vim-bufkill')
 call dein#add('Raimondi/delimitMate')
 
 call dein#add('arcticicestudio/nord-vim')
+call dein#add('altercation/vim-colors-solarized')
+
+call dein#add('rakr/vim-one')
 
 call dein#add('ctrlpvim/ctrlp.vim')
+
+call dein#add('valloric/youcompleteme')
+
+call dein#add('vim-erlang/vim-erlang-omnicomplete')
+
+call dein#add('racer-rust/vim-racer')
+
+call dein#add('rust-lang/rust.vim')
+
+call dein#add('cespare/vim-toml')
+
+call dein#add('vim-airline/vim-airline')
+
+call dein#add('vim-airline/vim-airline-themes')
+
+call dein#add('rakr/vim-one')
 
 call dein#end()
 
 source ~/.config/nvim/plugins/nerdtree.vim
 source ~/.config/nvim/plugins/buffkill.vim
+source ~/.config/nvim/plugins/racer.vim
+source ~/.config/nvim/plugins/rust.vim
+source ~/.config/nvim/plugins/elixir.vim

@@ -33,10 +33,19 @@ set showmatch
 
 " highlight column 80
 highlight ColorColumn ctermbg=darkgreen guibg=black
-set colorcolumn=80
+set colorcolumn=100
 
 " show line and column numbers
 set ruler
 
-" set color scheme
-colorscheme nord
+"set color scheme
+set termguicolors
+colorscheme one
+set background=dark
+let g:ariline_theme = 'one'
+
+autocmd CursorHold,CursorHoldI * checktime
+set autoread
+
+" hidden buffers - change buffer without saving
+set hidden
