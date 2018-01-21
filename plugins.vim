@@ -42,6 +42,8 @@ call dein#add('vim-airline/vim-airline-themes')
 
 call dein#add('rakr/vim-one')
 
+call dein#add('vimwiki/vimwiki')
+
 call dein#end()
 
 source ~/.config/nvim/plugins/nerdtree.vim
@@ -49,3 +51,5 @@ source ~/.config/nvim/plugins/buffkill.vim
 source ~/.config/nvim/plugins/racer.vim
 source ~/.config/nvim/plugins/rust.vim
 source ~/.config/nvim/plugins/elixir.vim
+source ~/.config/nvim/plugins/erlang.vim
+source ~/.config/nvim/plugins/airline.vim
