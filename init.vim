@@ -49,3 +49,10 @@ set autoread
 
 " hidden buffers - change buffer without saving
 set hidden
+
+" disable arrows
+noremap <Up> <nop>
+noremap <Down> <nop>
+noremap <Left> <nop>
+noremap <Right> <nop>
+
