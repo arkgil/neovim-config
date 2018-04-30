@@ -1,5 +1,7 @@
 ## NeoVim config
 
+**Deprecated:** Contents of this repo have been moved to https://github.com/arkgil/dotfiles/tree/master/.config/nvim.
+
 My neovim configuration files.
 
 ### Usage
